@@ -1,0 +1,8 @@
+import pandas
+import chardet
+import numpy as np
+from neuralNetwork import neuralNetwork
+
+beers = pandas.read_csv("recipeData.csv", encoding='latin1')
+
+print(beers)
